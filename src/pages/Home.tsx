@@ -50,7 +50,8 @@ export default function Home() {
               <video
                 controls
                 playsInline
-                preload="metadata"
+                preload="none"
+                loading="lazy"
                 className="w-full h-full object-contain bg-black absolute inset-0 z-20"
               >
                 <source src="/wedding-invite.mp4" type="video/mp4" />
@@ -62,7 +63,8 @@ export default function Home() {
               <video
                 controls
                 playsInline
-                preload="metadata"
+                preload="none"
+                loading="lazy"
                 className="w-full h-full object-contain bg-black absolute inset-0 z-20"
               >
                 <source src="/birthday-invite.mp4" type="video/mp4" />
@@ -74,7 +76,8 @@ export default function Home() {
               <video
                 controls
                 playsInline
-                preload="metadata"
+                preload="none"
+                loading="lazy"
                 className="w-full h-full object-contain bg-black absolute inset-0 z-20"
               >
                 <source src="/engagement-invite.mp4" type="video/mp4" />
@@ -86,7 +89,8 @@ export default function Home() {
               <video
                 controls
                 playsInline
-                preload="metadata"
+                preload="none"
+                loading="lazy"
                 className="w-full h-full object-contain bg-black absolute inset-0 z-20"
               >
                 <source src="/babyshower-invite.mp4" type="video/mp4" />
@@ -149,7 +153,7 @@ export default function Home() {
               className="glass p-8 flex flex-col items-center text-center card-hover overflow-hidden"
             >
               <div className="w-32 h-32 rounded-full overflow-hidden mb-6 border-2 border-line p-1">
-                <img src="/Dalpat.jpg" alt="Founder" className="w-full h-full object-cover rounded-full" />
+                <img src="/Dalpat.jpg" alt="Founder" loading="lazy" className="w-full h-full object-cover rounded-full" />
               </div>
               <h3 className="font-serif text-3xl mb-2 text-gold-soft">Dalpat Thakor</h3>
               <p className="text-gold tracking-[0.2em] uppercase text-xs mb-4">Founder & Creative Director</p>
@@ -172,7 +176,7 @@ export default function Home() {
               className="glass p-8 flex flex-col items-center text-center card-hover overflow-hidden"
             >
               <div className="w-32 h-32 rounded-full overflow-hidden mb-6 border-2 border-line p-1">
-                <img src="/Shweta.jpg" alt="Graphic Designer" className="w-full h-full object-cover rounded-full" />
+                <img src="/Shweta.jpg" alt="Graphic Designer" loading="lazy" className="w-full h-full object-cover rounded-full" />
               </div>
               <h3 className="font-serif text-3xl mb-2 text-gold-soft">Shweta Nayka</h3>
               <p className="text-gold tracking-[0.2em] uppercase text-xs mb-4">Co-Founder & Design Lead</p>

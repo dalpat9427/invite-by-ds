@@ -90,7 +90,7 @@ export default function CategoryGallery() {
                   className="aspect-[3/4] bg-white/5 mb-4 rounded-lg flex items-center justify-center overflow-hidden border border-white/10 group-hover:border-gold-soft/50 transition-colors relative"
                 >
                   {design.imageUrl ? (
-                    <img src={design.imageUrl} alt={design.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                    <img src={design.imageUrl} alt={design.title} loading="lazy" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                   ) : (
                     <span className="text-muted/30 font-serif">Image</span>
                   )}
