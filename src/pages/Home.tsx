@@ -46,57 +46,53 @@ export default function Home() {
             transition={{ duration: 1.2, delay: 0.2 }}
             className="preview-slider mt-16"
           >
-            <div className="preview-card relative group">
+            <div className="preview-card relative group flex items-center justify-center bg-black/40">
               <video
                 controls
                 playsInline
-                preload="none"
-                loading="lazy"
-                className="w-full h-full object-contain bg-black absolute inset-0 z-20"
+                preload="metadata"
+                className="w-full h-full object-contain absolute inset-0 z-20"
               >
-                <source src="/wedding-invite.mp4" type="video/mp4" />
+                <source src="/wedding-invite.mp4#t=0.001" type="video/mp4" />
               </video>
               <div className="absolute inset-0 bg-gradient-to-t from-[#080605] via-transparent to-transparent z-30 pointer-events-none"></div>
-              <span className="absolute bottom-4 left-6 z-40 text-gold-soft font-serif text-2xl drop-shadow-lg pointer-events-none">Wedding Showcase</span>
+              <span className="absolute bottom-4 left-6 z-40 text-gold-soft font-serif text-2xl drop-shadow-lg pointer-events-none">Wedding</span>
             </div>
-            <div className="preview-card relative group">
+            <div className="preview-card relative group flex items-center justify-center bg-black/40">
               <video
                 controls
                 playsInline
-                preload="none"
-                loading="lazy"
-                className="w-full h-full object-contain bg-black absolute inset-0 z-20"
+                preload="metadata"
+                className="w-full h-full object-contain absolute inset-0 z-20"
               >
-                <source src="/birthday-invite.mp4" type="video/mp4" />
+                <source src="/birthday-invite.mp4#t=0.001" type="video/mp4" />
               </video>
               <div className="absolute inset-0 bg-gradient-to-t from-[#080605] via-transparent to-transparent z-30 pointer-events-none"></div>
-              <span className="absolute bottom-4 left-6 z-40 text-gold-soft font-serif text-2xl drop-shadow-lg pointer-events-none">Birthday Showcase</span>
+              <span className="absolute bottom-4 left-6 z-40 text-gold-soft font-serif text-2xl drop-shadow-lg pointer-events-none">Birthday</span>
             </div>
-            <div className="preview-card relative group">
+            <div className="preview-card relative group flex items-center justify-center bg-black/40">
               <video
                 controls
                 playsInline
-                preload="none"
-                loading="lazy"
-                className="w-full h-full object-contain bg-black absolute inset-0 z-20"
+                preload="metadata"
+                className="w-full h-full object-contain absolute inset-0 z-20"
               >
-                <source src="/engagement-invite.mp4" type="video/mp4" />
+                <source src="/engagement-invite.mp4#t=0.001" type="video/mp4" />
               </video>
               <div className="absolute inset-0 bg-gradient-to-t from-[#080605] via-transparent to-transparent z-30 pointer-events-none"></div>
-              <span className="absolute bottom-4 left-6 z-40 text-gold-soft font-serif text-2xl drop-shadow-lg pointer-events-none">Engagement Showcase</span>
+              <span className="absolute bottom-4 left-6 z-40 text-gold-soft font-serif text-2xl drop-shadow-lg pointer-events-none">Engagement</span>
             </div>
-            <div className="preview-card relative group">
+            <div className="preview-card relative group flex items-center justify-center bg-black/40">
               <video
                 controls
                 playsInline
-                preload="none"
-                loading="lazy"
-                className="w-full h-full object-contain bg-black absolute inset-0 z-20"
+                preload="metadata"
+                className="w-full h-full object-contain absolute inset-0 z-20"
               >
-                <source src="/babyshower-invite.mp4" type="video/mp4" />
+                <source src="/babyshower-invite.mp4#t=0.001" type="video/mp4" />
               </video>
               <div className="absolute inset-0 bg-gradient-to-t from-[#080605] via-transparent to-transparent z-30 pointer-events-none"></div>
-              <span className="absolute bottom-4 left-6 z-40 text-gold-soft font-serif text-2xl drop-shadow-lg pointer-events-none">Baby Shower Showcase</span>
+              <span className="absolute bottom-4 left-6 z-40 text-gold-soft font-serif text-2xl drop-shadow-lg pointer-events-none">Baby Shower</span>
             </div>
           </motion.div>
         </div>
